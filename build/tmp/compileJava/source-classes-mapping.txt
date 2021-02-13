@@ -1,7 +1,21 @@
 co/com/utest/reto/exceptions/StartException.java
  co.com.utest.reto.exceptions.StartException
+co/com/utest/reto/task/IngresarPrimerRegistro.java
+ co.com.utest.reto.task.IngresarPrimerRegistro
+co/com/utest/reto/task/IngresarCuartoRegistro.java
+ co.com.utest.reto.task.IngresarCuartoRegistro
 co/com/utest/reto/model/PrimerRegistroModel.java
  co.com.utest.reto.model.PrimerRegistroModel
+co/com/utest/reto/task/AbrirBrowser.java
+ co.com.utest.reto.task.AbrirBrowser
+co/com/utest/reto/userinterface/PrincipalPage.java
+ co.com.utest.reto.userinterface.PrincipalPage
+co/com/utest/reto/task/IngresarTercerRegistro.java
+ co.com.utest.reto.task.IngresarTercerRegistro
+co/com/utest/reto/task/IngresarSegundoRegistro.java
+ co.com.utest.reto.task.IngresarSegundoRegistro
+co/com/utest/reto/userinterface/RegistroPage.java
+ co.com.utest.reto.userinterface.RegistroPage
 co/com/utest/reto/model/CuartoRegistroModel.java
  co.com.utest.reto.model.CuartoRegistroModel
 co/com/utest/reto/model/TercerRegistroModel.java

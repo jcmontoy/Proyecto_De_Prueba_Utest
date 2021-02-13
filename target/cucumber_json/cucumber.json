@@ -1,0 +1,211 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 499169700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "NuevoRegistroStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "registro de nuevo usuario",
+        "description": "",
+        "id": "registro-de-nuevo-usuario;registro-de-nuevo-usuario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 50655470900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "me quiero registrar en la pagina de uTest",
+            "match": {
+              "location": "NuevoRegistroStepDefinition.meQuieroRegistrarEnLaPaginaDeUTest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 72936300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "ingreso los datos del primer registro",
+            "match": {
+              "location": "NuevoRegistroStepDefinition.ingresoLosDatosDelPrimerRegistro(PrimerRegistroModel\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "lastName",
+                  "emailAddress",
+                  "month",
+                  "day",
+                  "year",
+                  "languagesSpoken"
+                ]
+              },
+              {
+                "cells": [
+                  "Juanse",
+                  "Montoya",
+                  "email@Address.com",
+                  "January",
+                  "20",
+                  "2002",
+                  "Itagüi"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3896300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "ingreso los datos del segundo registro",
+            "match": {
+              "location": "NuevoRegistroStepDefinition.ingresoLosDatosDelSegundoRegistro(SegundoRegistroModel\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "city",
+                  "zipOrPostalCode",
+                  "country"
+                ]
+              },
+              {
+                "cells": [
+                  "055414",
+                  "Alberta",
+                  "Canada"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3146200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "ingreso los datos del tercer registro",
+            "match": {
+              "location": "NuevoRegistroStepDefinition.ingresoLosDatosDelTercerRegistro(TercerRegistroModel\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "yourComputer",
+                  "version",
+                  "language",
+                  "yourMobileDevice",
+                  "model",
+                  "operatingSystem"
+                ]
+              },
+              {
+                "cells": [
+                  "Linux",
+                  "Ubuntu",
+                  "Spanish",
+                  "Alcatel",
+                  "OT-C700A",
+                  "Android 2.0"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4619900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "ingreso los datos del cuarto registro",
+            "match": {
+              "location": "NuevoRegistroStepDefinition.ingresoLosDatosDelCuartoRegistro(CuartoRegistroModel\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "createYourUtestPassword",
+                  "confirmPassword",
+                  "stayInformed",
+                  "uTestTermOfUse",
+                  "privacyYSecurity"
+                ]
+              },
+              {
+                "cells": [
+                  "Reto2021*!",
+                  "Reto2021*!",
+                  "",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4618300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "verifico que el mensaje del registro sea: \"Welcome to the world\u0027s largest community of freelance software testers!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome to the world\u0027s largest community of freelance software testers!",
+                  "offset": 43
+                }
+              ],
+              "location": "NuevoRegistroStepDefinition.verificoQueElMensajeDelRegistroSea(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "registro de nuevo usuario",
+    "description": "  Yo como nuevo usuario\n  Quiero registrarme\n  Para poder ingresar a la pagina uTest",
+    "id": "registro-de-nuevo-usuario",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/nuevoRegistro.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

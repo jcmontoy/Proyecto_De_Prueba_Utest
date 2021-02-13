@@ -25,4 +25,4 @@ Feature: registro de nuevo usuario
 
     Examples:
       | firstName | lastName | emailAddress      | month   | day | year | languagesSpoken | city   | zipOrPostalCode | country | yourComputer | version | language | yourMobileDevice | model    | operatingSystem | createYourUtestPassword | confirmPassword | stayInformed | uTestTermOfUse | privacyYSecurity |
-      | Juan      | Montoya  | email@Address.com | January | 20  | 2002 | Itagüi          | 055414 | Alberta         | Canada  | Linux        | Ubuntu  | Spanish  | Alcatel          | OT-C700A | Android 2.0     | Reto2021*!              | Reto2021*!      |              |                |                  |
+      | Juanse    | Montoya  | email@Address.com | January | 20  | 2002 | Itagüi          | 055414 | Alberta         | Canada  | Linux        | Ubuntu  | Spanish  | Alcatel          | OT-C700A | Android 2.0     | Reto2021*!              | Reto2021*!      |              |                |                  |

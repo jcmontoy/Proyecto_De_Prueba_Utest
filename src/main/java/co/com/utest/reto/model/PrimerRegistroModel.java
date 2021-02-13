@@ -2,13 +2,13 @@ package co.com.utest.reto.model;
 
 public class PrimerRegistroModel {
 
-    public String firstName;
-    public String lastName;
-    public String emailAddress;
-    public String month;
-    public String day;
-    public String year;
-    public String languagesSpoken;
+    private String firstName;
+    private String lastName;
+    private String emailAddress;
+    private String month;
+    private String day;
+    private String year;
+    private String languagesSpoken;
 
     public String getFirstName() {
         return firstName;

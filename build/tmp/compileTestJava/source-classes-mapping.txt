@@ -1,4 +1,4 @@
-co/com/utest/reto/stepdefinitions/NuevoRegistroStepDefinition.java
- co.com.utest.reto.stepdefinitions.NuevoRegistroStepDefinition
 co/com/utest/reto/runners/NuevoRegistroRunner.java
  co.com.utest.reto.runners.NuevoRegistroRunner
+co/com/utest/reto/stepdefinitions/NuevoRegistroStepDefinition.java
+ co.com.utest.reto.stepdefinitions.NuevoRegistroStepDefinition
