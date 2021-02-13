@@ -1,18 +1,16 @@
 package co.com.utest.reto.task;
 
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
+import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
+import static net.serenitybdd.screenplay.questions.WebElementQuestion.the;
+
 import co.com.utest.reto.exceptions.StartException;
+import co.com.utest.reto.userinterface.PrincipalPage;
 import co.com.utest.reto.userinterface.RegistroPage;
-import net.serenitybdd.core.pages.WebElementState;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Open;
-import net.serenitybdd.screenplay.targets.Target;
 import net.thucydides.core.annotations.Step;
-import org.hamcrest.Matcher;
-
-import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
-
-import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class AbrirBrowser implements Task {
 
@@ -22,10 +20,6 @@ public class AbrirBrowser implements Task {
     @Step("Open the browser")
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(Open.browserOn().the(registroPage));
-        actor.should(seeThat(the(RegistroPage.LINK_JOIN_TODAY, isVisible()).or(ComplaintWith(StartException.class, StartException.MESSAGE_PAGE_NOT_LOAD))));
+        actor.should(seeThat(the(PrincipalPage.LINK_JOIN_TODAY), isVisible()).orComplainWith(StartException.class, StartException.MESSAGE_PAGE_NOT_LOAD));
     }
-
-    private void the(Target linkJoinToday, Matcher<WebElementState> visible) {
-    }
-
 }
